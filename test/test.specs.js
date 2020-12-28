@@ -101,7 +101,7 @@ describe('testTarget', () => {
       const actual = sut.mocking();
 
       // Assert
-      expect(actual).to.eql('hsello');
+      expect(actual).to.eql('hello');
     });
   });
 });
